@@ -27,13 +27,4 @@ Before running the notebook, ensure you have the following libraries installed:
 2. Execute the cells to import the required libraries, create the dataset, build the model, and train it.
 3. The training process includes logging the accuracy for both digit classification and color prediction tasks.
 
-```python
-# Example code snippet
-%matplotlib inline
-%load_ext tensorboard
-import tensorflow as tf
-import numpy as np
-import matplotlib.pyplot as plt
-import shutil
 
-# ... (rest of the code)
